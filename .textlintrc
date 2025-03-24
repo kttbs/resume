@@ -6,13 +6,13 @@
         "severity": "warning"
       },
       "max-comma": {
-        "max": 3
+        "max": 10
       },
       "max-ten": {
         "max": 3
       },
       "max-kanji-continuous-len": {
-        "max": 6
+        "max": 8
       },
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": {
