@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "resume template",
   "scripts": {
-    "lint": "textlint docs/resume.md",
-    "build:pdf": "md-to-pdf docs/resume.md --config-file ./pdf-configs/config.js"
+    "lint": "textlint docs/index.md",
+    "build:pdf": "md-to-pdf docs/index.md --config-file ./pdf-configs/config.js"
   },
   "keywords": [],
   "devDependencies": {
