@@ -9,13 +9,17 @@
 | 居住地  | 東京都世田谷区             |
 | 最終学歴 | 某専門学校卒              |
 
-## 各種アカウント
+[//]: # (## 各種アカウント)
 
-<p style="display: flex; gap: 8px; flex-wrap: wrap;">
-    <a href="https://github.com/kttbs" target="_blank">
-        <img alt="Github" src="https://img.shields.io/badge/kttbs-black?&style=flat-square&logo=Github&logoColor=white"/>
-    </a>
-</p>
+[//]: # (<p style="display: flex; gap: 8px; flex-wrap: wrap;">)
+
+[//]: # (    <a href="https://github.com/kttbs" target="_blank">)
+
+[//]: # (        <img alt="Github" src="https://img.shields.io/badge/kttbs-black?&style=flat-square&logo=Github&logoColor=white"/>)
+
+[//]: # (    </a>)
+
+[//]: # (</p>)
 
 ## 職務経歴（サマリ）
 
@@ -43,7 +47,6 @@
 
 ## 技術スタック
 
-<div>
 
 | 言語                                                                                                                | 業務経験 | FW                                                                                                          | 経験年数 |
 |-------------------------------------------------------------------------------------------------------------------|------|-------------------------------------------------------------------------------------------------------------|------|
@@ -56,9 +59,6 @@
 | <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />         | 1 年  | トランザクションスクリプトとしてよく使います                                                                                      |      |
 | <img src="https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white" />         | 1 年  | JVM 言語としての興味から使います                                                                                           |      |
 
-</div>
-
-<div style="padding-top: 1rem;">
 
 | その他                                                                                                       | 業務経験 |
 |-----------------------------------------------------------------------------------------------------------|------|
@@ -66,7 +66,6 @@
 | <img src="https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google&logoColor=white" />    | 3 年  |
 | <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon&logoColor=white" />    | 2 年  |
 
-</div>
 
 ## 就業条件
 
