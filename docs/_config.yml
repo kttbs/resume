@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+title: resume docs
+description: resumeリポジトリdocs配下のホスティング
+theme: just-the-docs
+baseurl: docs
+
+# 全てのmdファイルにdefaultのレイアウト設定を追加
+defaults:
+  - scope:
+      path: "**/*.md"
+    values:
+      layout: "default"
