@@ -1,6 +1,6 @@
 title: resume docs
 description: resumeリポジトリdocs配下のホスティング
-theme: Architect
+theme: Cayman
 baseurl: docs
 
 # 全てのmdファイルにdefaultのレイアウト設定を追加
