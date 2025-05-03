@@ -51,12 +51,12 @@
 
 | 言語                                                                                                            | 経験年数 | 業務経験有無                          | 備考<br/>・主な使用ライブラリ                       |
 |---------------------------------------------------------------------------------------------------------------|------|---------------------------------|-----------------------------------------|
-| <img src="https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=Scala&logoColor=white" />       | 4年   | <input type="checkbox" checked> | 最近の業務でメインで使用<br/>・Cats<br/>・Cats Effect |
-| <img src="https://img.shields.io/badge/-Next.js-0F0F11?style=flat-square&logo=nextdotjs&logoColor=white" />   | 2年   | <input type="checkbox" checked> | サブ言語として業務/プライベートで使用<br/>・App Router     |
-| <img src="https://img.shields.io/badge/-Angular-0F0F11?style=flat-square&logo=angular&logoColor=white" />     | 2年   | <input type="checkbox" checked> |                                         |
-| <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=buymeacoffee&logoColor=white" /> | 3年   | <input type="checkbox" checked> | ・Spring<br/>・Spring Boot                |
-| <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />     | 1年   | <input type="checkbox" checked> | スクリプト作成で主に使用                            |
-| <img src="https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white" />     | 0年   | <input type="checkbox">         | JVM言語としての興味からプライベートで使用                  |
+| <img src="https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=Scala&logoColor=white" />       | 4 年   | <input type="checkbox" checked> | 最近の業務でメインで使用<br/>・Cats<br/>・Cats Effect |
+| <img src="https://img.shields.io/badge/-Next.js-0F0F11?style=flat-square&logo=nextdotjs&logoColor=white" />   | 2 年   | <input type="checkbox" checked> | サブ言語として業務/プライベートで使用<br/>・App Router     |
+| <img src="https://img.shields.io/badge/-Angular-0F0F11?style=flat-square&logo=angular&logoColor=white" />     | 2 年   | <input type="checkbox" checked> |                                         |
+| <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=buymeacoffee&logoColor=white" /> | 3 年   | <input type="checkbox" checked> | ・Spring<br/>・Spring Boot                |
+| <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />     | 1 年   | <input type="checkbox" checked> | スクリプト作成で主に使用                            |
+| <img src="https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white" />     | 0 年   | <input type="checkbox">         | JVM 言語としての興味からプライベートで使用                  |
 |                                                                                                               |      |                                 |
 
 ### インフラ系
@@ -64,7 +64,7 @@
 | 言語                                                                                                        | 経験年数 | 業務経験有無                          | 備考                                       |
 |-----------------------------------------------------------------------------------------------------------|------|---------------------------------|------------------------------------------|
 | <img src="https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white" /> | 6 年  | <input type="checkbox" checked> | 開発環境構築等の開発体験向上プロジェクト参画の経験あり              |
-| <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon&logoColor=white" />    | 3 年  | <input type="checkbox" checked> | カオスエンジニアリングで検知〜原因特定の経験あり<br/>・CFnでのIaC移行 |
+| <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon&logoColor=white" />    | 3 年  | <input type="checkbox" checked> | カオスエンジニアリングで検知〜原因特定の経験あり<br/>・CFn での IaC 移行 |
 | <img src="https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google&logoColor=white" />    | 2 年  | <input type="checkbox" >        | プライベートで使用                                |
 
 ## 就業条件
@@ -141,7 +141,7 @@ Next.js を用いた SPA の開発 ~ バックエンドの開発まで一貫し�
             - Scala code coverage でのカバレッジの可視化
             - CircleCI でのカバレッジレポートの自動生成
             - それらを基にしたテストカバレッジの向上ロードマップ作成、推進
-    - Webアプリ画面開発
+    - Web アプリ画面開発
         - Next.js でのフロントエンド開発
         - jest を用いたテストコードの作成
 
