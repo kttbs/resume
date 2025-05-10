@@ -39,13 +39,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-string-parser@npm:^7.25.9":
-  version: 7.25.9
-  resolution: "@babel/helper-string-parser@npm:7.25.9"
-  checksum: 10c0/7244b45d8e65f6b4338a6a68a8556f2cb161b782343e97281a5f2b9b93e420cad0d9f5773a59d79f61d0c448913d06f6a2358a87f2e203cf112e3c5b53522ee6
-  languageName: node
-  linkType: hard
-
 "@babel/helper-string-parser@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/helper-string-parser@npm:7.27.1"
@@ -67,7 +60,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.27.0":
+"@babel/parser@npm:^7.27.0, @babel/parser@npm:^7.7.5":
   version: 7.27.2
   resolution: "@babel/parser@npm:7.27.2"
   dependencies:
@@ -78,15 +71,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.7.5":
-  version: 7.11.5
-  resolution: "@babel/parser@npm:7.11.5"
-  bin:
-    parser: ./bin/babel-parser.js
-  checksum: 10c0/34063f237594d0d83284915366bc4413b9ab9e0af2693383a2b9a17e05948713528450f0b3ed8c7d4354da50f021aa5889d9ea48b38945f63cf22528c4cb439c
-  languageName: node
-  linkType: hard
-
 "@babel/types@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/types@npm:7.27.1"
@@ -94,16 +78,6 @@ __metadata:
     "@babel/helper-string-parser": "npm:^7.27.1"
     "@babel/helper-validator-identifier": "npm:^7.27.1"
   checksum: 10c0/ed736f14db2fdf0d36c539c8e06b6bb5e8f9649a12b5c0e1c516fed827f27ef35085abe08bf4d1302a4e20c9a254e762eed453bce659786d4a6e01ba26a91377
-  languageName: node
-  linkType: hard
-
-"@babel/types@npm:^7.8.3":
-  version: 7.26.10
-  resolution: "@babel/types@npm:7.26.10"
-  dependencies:
-    "@babel/helper-string-parser": "npm:^7.25.9"
-    "@babel/helper-validator-identifier": "npm:^7.25.9"
-  checksum: 10c0/7a7f83f568bfc3dfabfaf9ae3a97ab5c061726c0afa7dcd94226d4f84a81559da368ed79671e3a8039d16f12476cf110381a377ebdea07587925f69628200dac
   languageName: node
   linkType: hard
 
@@ -494,7 +468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@textlint/regexp-string-matcher@npm:^1.0.2, @textlint/regexp-string-matcher@npm:^1.1.0":
+"@textlint/regexp-string-matcher@npm:^1.0.2":
   version: 1.1.0
   resolution: "@textlint/regexp-string-matcher@npm:1.1.0"
   dependencies:
@@ -505,6 +479,20 @@ __metadata:
     lodash.uniqwith: "npm:^4.5.0"
     to-regex: "npm:^3.0.2"
   checksum: 10c0/41afed6c51e1f104b6155cd6958919bf10e16c7123ca37803b7df6b176e6876c9b4c9f1a3b7d5ca6b152496823623a438496eb8c8c473f19df178198c3b12a29
+  languageName: node
+  linkType: hard
+
+"@textlint/regexp-string-matcher@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "@textlint/regexp-string-matcher@npm:1.1.1"
+  dependencies:
+    escape-string-regexp: "npm:^2.0.0"
+    execall: "npm:^2.0.0"
+    lodash.sortby: "npm:^4.7.0"
+    lodash.uniq: "npm:^4.5.0"
+    lodash.uniqwith: "npm:^4.5.0"
+    to-regex: "npm:^3.0.2"
+  checksum: 10c0/73bb1be2bf8d2bf4729371648f3df364d144139e1a98b142b8a25fd3affcfec54cd8c68040eba1c698294468463f654972d51eec114809a6349addc8a5ebac7b
   languageName: node
   linkType: hard
 
@@ -1176,17 +1164,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ccount@npm:^1.0.0":
+"ccount@npm:^1.0.0, ccount@npm:^1.0.3":
   version: 1.1.0
   resolution: "ccount@npm:1.1.0"
   checksum: 10c0/9ccfddfa45c8d6d01411b8e30d2ce03c55c33f32a69bdb84ee44d743427cdb01b03159954917023d0dac960c34973ba42626bb9fa883491ebb663a53a6713d43
-  languageName: node
-  linkType: hard
-
-"ccount@npm:^1.0.3":
-  version: 1.0.5
-  resolution: "ccount@npm:1.0.5"
-  checksum: 10c0/aee04f22e5d9c7b4a3d6be341cd379d539f28831430ac590bb4fa19ae4e17331642430fd7dbfa4283c6af3dd6602b3c7ba88fb02cfd67d6dce935849fb84f002
   languageName: node
   linkType: hard
 
@@ -1350,6 +1331,15 @@ __metadata:
     is-regexp: "npm:^1.0.0"
     is-supported-regexp-flag: "npm:^1.0.0"
   checksum: 10c0/670e8ee1b03e90deb0f9efffba977ee0f0c8f653664dc4dccf4fe6f40fb2fb952551c63e4c0009cc09da4ed061bd09f82c5c484ada9fc69fafc78b580896cbee
+  languageName: node
+  linkType: hard
+
+"clone-regexp@npm:^2.1.0":
+  version: 2.2.0
+  resolution: "clone-regexp@npm:2.2.0"
+  dependencies:
+    is-regexp: "npm:^2.0.0"
+  checksum: 10c0/658f0110b057c1a80be52423f2d93ffb4fc690224abcba6df9cea04230e6ad19924a6dd04942749f4550a728447a982b10106392cda58315de81833ad373c3d2
   languageName: node
   linkType: hard
 
@@ -1931,6 +1921,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escape-string-regexp@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "escape-string-regexp@npm:2.0.0"
+  checksum: 10c0/2530479fe8db57eace5e8646c9c2a9c80fa279614986d16dcc6bcaceb63ae77f05a851ba6c43756d816c61d7f4534baf56e3c705e3e0d884818a46808811c507
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^4.0.0":
   version: 4.0.0
   resolution: "escape-string-regexp@npm:4.0.0"
@@ -1993,6 +1990,15 @@ __metadata:
   dependencies:
     clone-regexp: "npm:^1.0.0"
   checksum: 10c0/84dbfe7c64a7a4505e2df409cf991b1223065421a308d8838fa7a148811e5768bc2f54acb98558c07d574ca35fb4c456b0132ebd26ea8c2d9d525c633c195a1c
+  languageName: node
+  linkType: hard
+
+"execall@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "execall@npm:2.0.0"
+  dependencies:
+    clone-regexp: "npm:^2.1.0"
+  checksum: 10c0/ffcb293c272dcff4812b69953fedac2b681c2cdd73062b5a6ff47491cdd5a324d8989fc485b0ee1553316315be3fdd58333e0ec7b8f282e9c605289d528cbb81
   languageName: node
   linkType: hard
 
@@ -2531,9 +2537,9 @@ __metadata:
   linkType: hard
 
 "hast-util-parse-selector@npm:^2.0.0":
-  version: 2.2.4
-  resolution: "hast-util-parse-selector@npm:2.2.4"
-  checksum: 10c0/e535eca925165a8ab4116fc9bc6b84ed4e68e6490fbd46567b9a7efa97d5ee470ca37e9183d4e30be68594a1253fe55ff6d2f2d6f2ea430a16d75d7a41a601ab
+  version: 2.2.5
+  resolution: "hast-util-parse-selector@npm:2.2.5"
+  checksum: 10c0/29b7ee77960ded6a99d30c287d922243071cc07b39f2006f203bd08ee54eb8f66bdaa86ef6527477c766e2382d520b60ee4e4087f189888c35d8bcc020173648
   languageName: node
   linkType: hard
 
@@ -3017,6 +3023,13 @@ __metadata:
   version: 1.0.0
   resolution: "is-regexp@npm:1.0.0"
   checksum: 10c0/34cacda1901e00f6e44879378f1d2fa96320ea956c1bec27713130aaf1d44f6e7bd963eed28945bfe37e600cb27df1cf5207302680dad8bdd27b9baff8ecf611
+  languageName: node
+  linkType: hard
+
+"is-regexp@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "is-regexp@npm:2.1.0"
+  checksum: 10c0/f3fb0233be913e271527be74a1830ec10183dff609b05c1793bc14c3d0b86940f3757b070f79bc6a9fe9abfecaba35422fe4832a77522058be393508a15576c2
   languageName: node
   linkType: hard
 
@@ -5768,7 +5781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-helper@npm:^2.0.0, textlint-rule-helper@npm:^2.1.1":
+"textlint-rule-helper@npm:^2.0.0":
   version: 2.1.1
   resolution: "textlint-rule-helper@npm:2.1.1"
   dependencies:
@@ -5780,7 +5793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textlint-rule-helper@npm:^2.2.1, textlint-rule-helper@npm:^2.2.4, textlint-rule-helper@npm:^2.3.0, textlint-rule-helper@npm:^2.3.1":
+"textlint-rule-helper@npm:^2.1.1, textlint-rule-helper@npm:^2.2.1, textlint-rule-helper@npm:^2.2.4, textlint-rule-helper@npm:^2.3.0, textlint-rule-helper@npm:^2.3.1":
   version: 2.3.1
   resolution: "textlint-rule-helper@npm:2.3.1"
   dependencies:

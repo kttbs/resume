@@ -51,21 +51,21 @@
 
 | 言語                                                                                                            | 経験年数 | 業務経験有無                          | 備考<br/>・主な使用ライブラリ                       |
 |---------------------------------------------------------------------------------------------------------------|------|---------------------------------|-----------------------------------------|
-| <img src="https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=Scala&logoColor=white" />       | 4 年   | <input type="checkbox" checked> | 最近の業務でメインで使用<br/>・Cats<br/>・Cats Effect |
-| <img src="https://img.shields.io/badge/-Next.js-0F0F11?style=flat-square&logo=nextdotjs&logoColor=white" />   | 2 年   | <input type="checkbox" checked> | サブ言語として業務/プライベートで使用<br/>・App Router     |
-| <img src="https://img.shields.io/badge/-Angular-0F0F11?style=flat-square&logo=angular&logoColor=white" />     | 2 年   | <input type="checkbox" checked> |                                         |
-| <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=buymeacoffee&logoColor=white" /> | 3 年   | <input type="checkbox" checked> | ・Spring<br/>・Spring Boot                |
-| <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />     | 1 年   | <input type="checkbox" checked> | スクリプト作成で主に使用                            |
-| <img src="https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white" />     | 0 年   | <input type="checkbox">         | JVM 言語としての興味からプライベートで使用                  |
+| <img src="https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=Scala&logoColor=white" />       | 4 年  | <input type="checkbox" checked> | 最近の業務でメインで使用<br/>・Cats<br/>・Cats Effect |
+| <img src="https://img.shields.io/badge/-Next.js-0F0F11?style=flat-square&logo=nextdotjs&logoColor=white" />   | 2 年  | <input type="checkbox" checked> | サブ言語として業務/プライベートで使用<br/>・App Router     |
+| <img src="https://img.shields.io/badge/-Angular-0F0F11?style=flat-square&logo=angular&logoColor=white" />     | 2 年  | <input type="checkbox" checked> |                                         |
+| <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=buymeacoffee&logoColor=white" /> | 3 年  | <input type="checkbox" checked> | ・Spring<br/>・Spring Boot                |
+| <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />     | 1 年  | <input type="checkbox" checked> | スクリプト作成で主に使用                            |
+| <img src="https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=Kotlin&logoColor=white" />     | 0 年  | <input type="checkbox">         | JVM 言語としての興味からプライベートで使用                 |
 |                                                                                                               |      |                                 |
 
 ### インフラ系
 
-| 言語                                                                                                        | 経験年数 | 業務経験有無                          | 備考                                       |
-|-----------------------------------------------------------------------------------------------------------|------|---------------------------------|------------------------------------------|
-| <img src="https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white" /> | 6 年  | <input type="checkbox" checked> | 開発環境構築等の開発体験向上プロジェクト参画の経験あり              |
+| 言語                                                                                                        | 経験年数 | 業務経験有無                          | 備考                                          |
+|-----------------------------------------------------------------------------------------------------------|------|---------------------------------|---------------------------------------------|
+| <img src="https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white" /> | 6 年  | <input type="checkbox" checked> | 開発環境構築等の開発体験向上プロジェクト参画の経験あり                 |
 | <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon&logoColor=white" />    | 3 年  | <input type="checkbox" checked> | カオスエンジニアリングで検知〜原因特定の経験あり<br/>・CFn での IaC 移行 |
-| <img src="https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google&logoColor=white" />    | 2 年  | <input type="checkbox" >        | プライベートで使用                                |
+| <img src="https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google&logoColor=white" />    | 2 年  | <input type="checkbox" >        | プライベートで使用                                   |
 
 ## 就業条件
 
@@ -101,7 +101,7 @@ Next.js を用いた SPA の開発 ~ バックエンドの開発まで一貫し�
         - ECR
         - ArgoCD
 - **役割：**
-    - ドメイン設計者（要求確認、ADR 作成 etc)、アーキテクチャ調整、コーディング、レビュー、CI/CD 構築
+    - ドメイン設計者（要求確認、ADR 作成 etc）、アーキテクチャ調整、コーディング、レビュー、CI/CD 構築
 - **担当プロジェクト：**
     - 計測系システムにおけるバックエンド開発/最適化
         - 要求から要件の定義、ドメイン設計を TL と担当
@@ -251,7 +251,7 @@ EC サイト構築要件の顧客折衝・開発・ローンチ。
     - 担当：デザイン・実装、運用、インフラ構築
     - 使用技術：TypeScript, React, Next.js(App Router), Tailwind.css, motion, hubSpot, Firebase Hosting
     - 要件ヒアリングからデザイン、実装、運用まで一貫して担当
-    - バックエンドは構築するまでの要件ではないと判断したため、SSG と Headless CMS を利用してフロントエンドのみの構築を行った
+    - バックエンドは構築するまでの要件ではないと判断したため、SSG と Headless CMS を利用してフロントエンドのみで構築した
 - **理容室 LP 開発（2024/05〜2024/06）**
     - 担当：デザイン・実装、運用、インフラ構築
     - 使用技術：TypeScript, React, Vue.js
