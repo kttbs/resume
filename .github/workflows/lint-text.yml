@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'yarn'
-      - run: yarn install
+      - run: corepack enable
+      - run: yarn install --immutable
       - name: lint text
         run: yarn lint

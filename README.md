@@ -16,6 +16,15 @@
 yarn install
 ```
 
+グローバルに Node.js / Yarn を入れたくない場合は、プロジェクト直下にだけ Node.js を配置して利用できます。
+
+```bash
+./scripts/setup-local-node.sh
+./scripts/yarn.sh install
+```
+
+以降も、ローカル限定で実行したい場合は `./scripts/yarn.sh` を使います。
+
 ## できること
 
 ### 文章校正
@@ -23,7 +32,7 @@ yarn install
 `docs/index.md` を [textlint](https://github.com/textlint/textlint) でチェックできます。
 
 ```bash
-yarn lint
+./scripts/yarn.sh lint
 ```
 
 - 校正ルールは `.textlintrc` で管理しています。
@@ -35,7 +44,7 @@ yarn lint
 [md-to-pdf](https://www.npmjs.com/package/md-to-pdf) を使って `docs/index.md` から PDF を生成できます。
 
 ```bash
-yarn build:pdf
+./scripts/yarn.sh build:pdf
 ```
 
 - 出力先は `docs/index.pdf` です。

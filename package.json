@@ -2,7 +2,9 @@
   "name": "resume-template",
   "version": "1.0.0",
   "description": "resume template",
+  "packageManager": "yarn@4.14.1",
   "scripts": {
+    "setup:local-node": "./scripts/setup-local-node.sh",
     "lint": "textlint docs/index.md",
     "build:pdf": "md-to-pdf docs/index.md --config-file ./pdf-configs/config.js"
   },
